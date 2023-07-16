@@ -6,12 +6,14 @@
 *::after {
   box-sizing: border-box;
 }
+
 /*
   2. Remove default margin
 */
 * {
   margin: 0;
 }
+
 /*
   3. Allow percentage-based heights in the application
 */
@@ -19,6 +21,7 @@ html,
 body {
   height: 100%;
 }
+
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -28,6 +31,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
 /*
   6. Improve media defaults
 */
@@ -39,6 +43,7 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 /*
   7. Remove built-in form typography styles
 */
@@ -48,6 +53,7 @@ textarea,
 select {
   font: inherit;
 }
+
 /*
   8. Avoid text overflows
 */
@@ -60,6 +66,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
 /*
   9. Create a root stacking context
 */
@@ -419,11 +426,13 @@ a.link__arrowed:hover svg path {
   background: linear-gradient(154.49deg, #5ca1fe 6.61%, #217bf4 89.72%);
   box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
 }
+
 .community__groups .community__card-icon,
 .community__builder .community__card-icon {
   background: linear-gradient(154.49deg, #ff858a 6.61%, #f04148 89.72%);
   box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
 }
+
 .community__forum .community__card-icon,
 .community__scroll .community__card-icon {
   background: linear-gradient(154.49deg, #ffd085 6.61%, #ffaf2e 89.72%);
@@ -533,7 +542,7 @@ a.link__arrowed:hover svg path {
 .app__screenshot {
   position: relative;
   align-self: end;
-  width: 341px;
+  /* width: 341px; */
   margin-inline-start: auto;
 }
 
@@ -543,30 +552,10 @@ a.link__arrowed:hover svg path {
   z-index: 1;
 }
 
-.app__screenshot-circle-1,
-.app__screenshot-circle-2 {
-  width: 145px;
-  height: 145px;
-  border-radius: 50%;
-  left: -72px;
-
-  position: absolute;
-}
-
 .app__screenshot-shine {
   position: absolute;
-  right: -57px;
-  top: -54px;
-}
-
-.app__screenshot-circle-1 {
-  background-color: #fc6a65;
-  bottom: 72px;
-}
-
-.app__screenshot-circle-2 {
-  background-color: #489d92;
-  bottom: -72px;
+  right: 129px;
+  top: 4px;
 }
 
 .app__buttons {
@@ -576,6 +565,8 @@ a.link__arrowed:hover svg path {
 }
 
 .app__buttons img {
+  width: 80px;
+  height: 60px;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 22px rgba(178, 188, 208, 0.21);
 }
@@ -689,7 +680,7 @@ a.link__arrowed:hover svg path {
   align-items: center;
 }
 
-.footer__secondary-content > * {
+.footer__secondary-content>* {
   flex: 1
 }
 
@@ -700,6 +691,10 @@ a.link__arrowed:hover svg path {
   display: flex;
   gap: 0.5rem;
   justify-content: flex-end;
+}
+.footer__social-img{
+  display: block;
+  max-width: 60%;
 }
 
 .footer__social-links a {
