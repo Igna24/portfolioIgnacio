@@ -1,0 +1,22 @@
+{
+  "name": "portfolioignacio",
+  "version": "1.0.0",
+  "description": "Portfolio personal de Ignacio Marin Garro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igna24/portfolioIgnacio.git"
+  },
+  "author": "Ignacio Marin Garro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igna24/portfolioIgnacio/issues"
+  },
+  "homepage": "https://github.com/Igna24/portfolioIgnacio#readme",
+  "devDependencies": {
+    "sass": "^1.64.0"
+  }
+}

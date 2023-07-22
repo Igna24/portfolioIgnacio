@@ -1,0 +1,45 @@
+
+.app {
+  background-color: #e5f0fd;
+  overflow: hidden;
+  margin-bottom: 7.5rem;
+}
+
+.app .container {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  height: 560px;
+  align-items: center;
+}
+
+.app__screenshot {
+  position: relative;
+  align-self: end;
+  /* width: 341px; */
+  margin-inline-start: auto;
+}
+
+.app__screenshot .app__screenshot-picture {
+  filter: drop-shadow(0px 80px 250px rgba(0, 0, 0, 0.2));
+  position: relative;
+  z-index: 1;
+}
+
+.app__screenshot-shine {
+  position: absolute;
+  right: 129px;
+  top: 4px;
+}
+
+.app__buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app__buttons img {
+  width: 80px;
+  height: 60px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 22px rgba(178, 188, 208, 0.21);
+}

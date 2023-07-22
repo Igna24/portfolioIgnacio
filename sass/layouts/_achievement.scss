@@ -1,0 +1,43 @@
+
+.achievement {
+  display: grid;
+  grid-template-columns: 340px 340px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.achievement .card {
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to bottom, rgba(185, 185, 185, 0.44), rgba(94, 94, 94, 0.58)) border-box;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 3rem 1.125rem 2.5rem 2.5rem;
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.achievement .card:hover {
+  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.24);
+  transform: translate(-4px, -4px);
+}
+
+.achievement .card__subtitle {
+  margin-bottom: 2.5rem;
+}
+
+.card__subtitle b {
+  color: var(--color-primary);
+}
+
+.achievement .card__content {
+  margin-bottom: 2rem;
+}
+
+.achievement__content {
+  margin-inline-start: auto;
+  width: 380px;
+}
+
+.achievement__content p:not(.section__subtitle) {
+  margin-bottom: 2rem;
+}
