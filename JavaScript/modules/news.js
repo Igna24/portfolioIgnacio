@@ -1,12 +1,12 @@
 // news.js
-export function generateNewsSection(data) {
-  const mainContent = document.querySelector('main');
+export default function generateNewsSection(data) {
+  const mainContent = document.querySelector("main");
 
-  const newsSection = document.createElement('section');
-  newsSection.classList.add('news');
+  const newsSection = document.createElement("section");
+  newsSection.classList.add("news");
 
-  const newsContainer = document.createElement('div');
-  newsContainer.classList.add('container');
+  const newsContainer = document.createElement("div");
+  newsContainer.classList.add("container");
 
   const newsSectionContent = `
     <div class="news__content">
@@ -25,12 +25,12 @@ export function generateNewsSection(data) {
   mainContent.appendChild(newsSection);
 
   // Obtener el contenedor de las noticias
-  const newsArticlesContainer = newsSection.querySelector('.news__articles');
+  const newsArticlesContainer = newsSection.querySelector(".news__articles");
 
   // Generar y agregar cada artículo de las noticias
   data.articles.forEach((article) => {
-    const newsArticle = document.createElement('article');
-    newsArticle.classList.add('news__article');
+    const newsArticle = document.createElement("article");
+    newsArticle.classList.add("news__article");
 
     const newsArticleContent = `
       <img src="${article.image}" class="news__article-image" alt="" />

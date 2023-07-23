@@ -1,17 +1,17 @@
 // footer.js
-export function generateFooterSection(data) {
-  const footer = document.createElement('footer');
-  footer.classList.add('footer');
+export default function generateFooterSection(data) {
+  const footer = document.createElement("footer");
+  footer.classList.add("footer");
 
-  const footerContainer = document.createElement('div');
-  footerContainer.classList.add('container');
+  const footerContainer = document.createElement("div");
+  footerContainer.classList.add("container");
 
-  const footerMain = document.createElement('div');
-  footerMain.classList.add('footer__main');
+  const footerMain = document.createElement("div");
+  footerMain.classList.add("footer__main");
 
-  const footerNav = document.createElement('nav');
-  footerNav.setAttribute('aria-label', 'Secondary');
-  footerNav.classList.add('footer__nav');
+  const footerNav = document.createElement("nav");
+  footerNav.setAttribute("aria-label", "Secondary");
+  footerNav.classList.add("footer__nav");
 
   // Generate My Email section
   const myEmailSection = `
@@ -48,8 +48,8 @@ export function generateFooterSection(data) {
 
   footerMain.appendChild(footerNav);
 
-  const footerSignup = document.createElement('article');
-  footerSignup.classList.add('footer_singup');
+  const footerSignup = document.createElement("article");
+  footerSignup.classList.add("footer_singup");
 
   const footerSignupContent = `
     <h3>Contact Me</h3>
@@ -67,11 +67,11 @@ export function generateFooterSection(data) {
   footerContainer.appendChild(footerMain);
   footer.appendChild(footerContainer);
 
-  const footerSecondary = document.createElement('div');
-  footerSecondary.classList.add('footer__secondary');
+  const footerSecondary = document.createElement("div");
+  footerSecondary.classList.add("footer__secondary");
 
-  const footerSecondaryContainer = document.createElement('div');
-  footerSecondaryContainer.classList.add('container');
+  const footerSecondaryContainer = document.createElement("div");
+  footerSecondaryContainer.classList.add("container");
 
   const footerSecondaryContent = `
     <div class="footer__secondary-content">

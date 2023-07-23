@@ -1,13 +1,13 @@
 // Función para generar el section de My Skills
-export function generateSkillsSection(data) {
-  const mainContent = document.querySelector('main');
+export default function generateSkillsSection(data) {
+  const mainContent = document.querySelector("main");
 
-  const skillsSection = document.createElement('section');
-  skillsSection.classList.add('community');
-  skillsSection.setAttribute('id', 'mySkills');
+  const skillsSection = document.createElement("section");
+  skillsSection.classList.add("community");
+  skillsSection.setAttribute("id", "mySkills");
 
-  const skillsContainer = document.createElement('div');
-  skillsContainer.classList.add('container');
+  const skillsContainer = document.createElement("div");
+  skillsContainer.classList.add("container");
 
   const skillsSectionContent = `
     <div class="community__content">

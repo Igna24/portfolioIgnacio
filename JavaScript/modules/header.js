@@ -1,4 +1,4 @@
-export function generateHeaderSection() {
+export default function generateHeaderSection() {
   const headerContent = `
     <header class="header">
       <div class="container header__container">
@@ -18,6 +18,6 @@ export function generateHeaderSection() {
     </header>
   `;
 
-  const primeContainer = document.querySelector('.prime');
+  const primeContainer = document.querySelector(".prime");
   primeContainer.innerHTML += headerContent;
 }

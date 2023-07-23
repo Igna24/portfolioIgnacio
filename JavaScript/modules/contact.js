@@ -1,13 +1,13 @@
 // contact.js
-export function generateContactSection(data) {
-  const mainContent = document.querySelector('main');
+export default function generateContactSection(data) {
+  const mainContent = document.querySelector("main");
 
-  const contactSection = document.createElement('section');
-  contactSection.classList.add('app');
-  contactSection.setAttribute('id', 'contact'); // Agregar el ID "contact" al section
+  const contactSection = document.createElement("section");
+  contactSection.classList.add("app");
+  contactSection.setAttribute("id", "contact"); // Agregar el ID "contact" al section
 
-  const contactContainer = document.createElement('div');
-  contactContainer.classList.add('container');
+  const contactContainer = document.createElement("div");
+  contactContainer.classList.add("container");
 
   const contactSectionContent = `
     <div class="app__content">

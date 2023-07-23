@@ -1,4 +1,4 @@
-export function generateHeroSection(data) {
+export default function generateHeroSection(data) {
   const heroContent = `
     <section class="hero container">
       <div class="hero__content">
@@ -16,6 +16,6 @@ export function generateHeroSection(data) {
     </section>
   `;
 
-  const primeContainer = document.querySelector('.prime');
+  const primeContainer = document.querySelector(".prime");
   primeContainer.innerHTML += heroContent;
 }

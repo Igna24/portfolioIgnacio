@@ -1,17 +1,21 @@
 // Función para generar el section que sigue después de "Why me?"
-export function generateAchievementSection(data) {
-  const mainContent = document.querySelector('main');
+export default function generateAchievementSection(data) {
+  const mainContent = document.querySelector("main");
 
-  const sectionAfterWhyMe = document.createElement('section');
-  sectionAfterWhyMe.classList.add('achievement', 'container');
+  const sectionAfterWhyMe = document.createElement("section");
+  sectionAfterWhyMe.classList.add("achievement", "container");
 
   const sectionAfterWhyMeContent = `
   <article class="card rating">
   <header>
-    <h3 class="card__title"><img src="./images/ico-star.svg" alt="Outline star icon" /> ${data.ratingTitle}</h3>
+    <h3 class="card__title"><img src="./images/ico-star.svg" alt="Outline star icon" /> ${
+      data.ratingTitle
+    }</h3>
     <p class="card__subtitle">
       <span class="card__avatars">
-        ${data.ratingAvatars.map(avatar => `<img src="${avatar}" alt="Avatar" />`).join('')}
+        ${data.ratingAvatars
+          .map((avatar) => `<img src="${avatar}" alt="Avatar" />`)
+          .join("")}
       </span>
       <b>${data.ratingSubtitle}</b>&nbsp;Students
     </p>
@@ -30,7 +34,9 @@ export function generateAchievementSection(data) {
 </article>
 <article class="card awards">
   <header>
-    <h3 class="card__title"><img src="./images/ico-trophy.svg" alt="Outline star icon" /> ${data.learningTitle}</h3>
+    <h3 class="card__title"><img src="./images/ico-trophy.svg" alt="Outline star icon" /> ${
+      data.learningTitle
+    }</h3>
     <p class="card__subtitle">${data.learningSubtitle}</p>
   </header>
   <p class="card__content">${data.learningContent}</p>
