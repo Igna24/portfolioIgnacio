@@ -3,14 +3,13 @@ export default function getDataFromAPI() {
   // Datos simulados para cada sección
   const heroData = {
     title: "My introduction",
-    subtitle: "Web developer & <br> designer",
+    subtitle: "Web developer & designer",
     description:
       "An enthusiastic web developer, enjoying the creation of websites and finding great satisfaction in this creative process.",
     cta1Text: "Why me?",
     cta1Link: "#whyMe",
     cta2Text: "My skills",
     cta2Link: "#mySkills",
-    imageUrl: "./images/hero-image.svg",
   };
 
   const whyMeData = {
@@ -57,16 +56,27 @@ export default function getDataFromAPI() {
       "Languages and tools in which I have experience are those I have acquired through past and current work and projects I have carried out.",
     skills: [
       {
-        icon: "./images/html5-original.svg",
-        name: "HTML",
-        description:
-          "Standard markup language used to create and structure the content of web pages.",
+        icon: "./images/react-original.svg",
+        name: "React",
+        description: "JSX, Components, State, Props, Hooks",
       },
       {
-        icon: "./images/css3-original.svg",
-        name: "CSS",
+        icon: "./images/nextjs-original-wordmark.svg",
+        name: "NextJS",
         description:
-          "Strong understanding of applying styles, creating responsive designs, implementing positioning, and incorporating visual effects.",
+          "Pages, Static Generation, Server-side Rendering, API Routes, Dynamic Routes",
+      },
+      {
+        icon: "./images/chakraUI.svg",
+        name: "ChakraUI",
+        description:
+          "Responsive Design, Accesibilidad, Componentes Visuales Personalizables",
+      },
+      {
+        icon: "./images/figma-original.svg",
+        name: "Figma",
+        description:
+          "Prototipado Interactivo, Plugins y Automatización, Variantes y Componentes Reutilizables ",
       },
       {
         icon: "./images/javascript-original.svg",
@@ -90,6 +100,18 @@ export default function getDataFromAPI() {
         description:
           "Version control system that allows for efficient and collaborative management of code repositories.",
       },
+      {
+        icon: "./images/html5-original.svg",
+        name: "HTML",
+        description:
+          "Standard markup language used to create and structure the content of web pages.",
+      },
+      {
+        icon: "./images/css3-original.svg",
+        name: "CSS",
+        description:
+          "Strong understanding of applying styles, creating responsive designs, implementing positioning, and incorporating visual effects.",
+      },
     ],
   };
 
@@ -98,24 +120,70 @@ export default function getDataFromAPI() {
     subtitle: "Know Me a Little Bit More",
     description:
       "I am always in search of new experiences and knowledge, driven by my insatiable curiosity.",
-    interests: [
-      { icon: "./images/finance.svg", name: "Finance", username: "@books" },
-      {
-        icon: "./images/motivation.svg",
-        name: "Motivation",
-        username: "@books",
-      },
-      {
-        icon: "./images/programming.svg",
-        name: "Programming",
-        username: "@books",
-      },
-      {
-        icon: "./images/adventure.svg",
-        name: "Adventures",
-        username: "@books",
-      },
-    ],
+    categories: {
+      Hobbies: [
+        {
+          icon: "./images/crossfit-icon.svg",
+          name: "CrossFit",
+          username: "@crossfit",
+        },
+        {
+          icon: "./images/moto-icon.svg",
+          name: "Rider",
+          username: "@motorider",
+        },
+        {
+          icon: "./images/golf-icon.svg",
+          name: "Golf",
+          username: "@golf",
+        },
+        {
+          icon: "./images/hiking-icon.svg",
+          name: "Hiking",
+          username: "@trailwalker",
+        },
+      ],
+      Knowledge: [
+        {
+          icon: "./images/cooking-icon.svg",
+          name: "Cooking",
+          username: "@Cooking",
+        },
+        {
+          icon: "./images/AI-icon.svg",
+          name: "Artif. Inteligence",
+          username: "@AI",
+        },
+        {
+          icon: "./images/tech-icon.svg",
+          name: "Technology",
+          username: "@techenthusiast",
+        },
+        {
+          icon: "./images/mechanic-icon.svg",
+          name: "Mechanic",
+          username: "@mechanic",
+        },
+      ],
+      Books: [
+        { icon: "./images/finance.svg", name: "Finance", username: "@books" },
+        {
+          icon: "./images/motivation.svg",
+          name: "Motivation",
+          username: "@books",
+        },
+        {
+          icon: "./images/programming.svg",
+          name: "Programming",
+          username: "@books",
+        },
+        {
+          icon: "./images/adventure.svg",
+          name: "Adventures",
+          username: "@books",
+        },
+      ],
+    },
   };
 
   const contactData = {

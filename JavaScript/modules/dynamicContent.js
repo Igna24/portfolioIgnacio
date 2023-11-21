@@ -1,3 +1,4 @@
+// Importa todas las funciones de generación de secciones específicas
 import generateHeaderSection from "./header.js";
 import generateHeroSection from "./hero.js";
 import generateWhyMeSection from "./whyMe.js";
@@ -9,13 +10,12 @@ import generateNewsSection from "./news.js";
 import generateFooterSection from "./footer.js";
 import getDataFromAPI from "./api.js";
 
-// Función para generar el contenido dinámico usando los datos de la API simulada
+// Esta función invoca todas las funciones específicas de sección con los datos correspondientes
 export default function generateDynamicContent() {
-  // Obtener datos simulados desde la API
   const data = getDataFromAPI();
 
-  // Llamar a cada función de los módulos para generar el contenido con los datos de la API simulada
-  generateHeaderSection();
+  // Aquí se generan las secciones individuales de la página
+  generateHeaderSection(data.headerData); // Asegúrate de que headerData esté definido en tus datos de la API
   generateHeroSection(data.heroData);
   generateWhyMeSection(data.whyMeData);
   generateAchievementSection(data.achievementData);
