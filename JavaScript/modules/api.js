@@ -70,13 +70,13 @@ export default function getDataFromAPI() {
         icon: "./images/chakraUI.svg",
         name: "ChakraUI",
         description:
-          "Responsive Design, Accesibilidad, Componentes Visuales Personalizables",
+          "Responsive Design, Accessibility, Customizable Visual Components",
       },
       {
         icon: "./images/figma-original.svg",
         name: "Figma",
         description:
-          "Prototipado Interactivo, Plugins y Automatización, Variantes y Componentes Reutilizables ",
+          "Interactive Prototyping, Plugins and Automation, Variants and Reusable Components",
       },
       {
         icon: "./images/javascript-original.svg",
@@ -202,19 +202,19 @@ export default function getDataFromAPI() {
     subtitle: "Latest Works",
     articles: [
       {
-        image: "./images/HOME-PAGE-work1.svg",
-        title: "An e-commerce dedicated to the sale of cat items",
-        link: "https://github.com/4Driian/proyecto-final",
+        image: "./images/CETAV-2023.svg",
+        title: "CETAV's official website.",
+        link: "https://lalibertad-cetav.vercel.app/",
       },
       {
-        image: "./images/Hoteles-work2.svg",
-        title: "A page of hotels in different destinations in Costa Rica",
-        link: "https://github.com/javierbarbozam/proyecto1-final",
+        image: "./images/EVENTS-2023.svg",
+        title: "Search and schedule events project",
+        link: "https://events-side.vercel.app/",
       },
       {
-        image: "./images/Biccas-work3.svg",
-        title: "A website that offers different services",
-        link: "https://www.figma.com/file/xZ2wjeqMdAq1VGP5lUj3PQ/Biccas?type=design&node-id=2-5&mode=design&t=4Patn0NVtyAlmZPx-0",
+        image: "./images/WILD-2023.svg",
+        title: "A hotel management application",
+        link: "https://hotel-appv-3.vercel.app",
       },
     ],
   };
