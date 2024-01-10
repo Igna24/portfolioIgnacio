@@ -34,3 +34,10 @@
   text-align: center;
   margin-bottom: 5rem;
 }
+
+@media screen and (max-width: 600px){
+  .news__articles{
+    display: flex;
+  flex-direction: column;
+  }
+}

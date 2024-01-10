@@ -85,3 +85,10 @@
 .team__member-name {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 600px){
+  .team__members{
+    display: flex;
+    flex-direction: column;
+  }
+}

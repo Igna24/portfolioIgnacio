@@ -41,3 +41,13 @@
 .achievement__content p:not(.section__subtitle) {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 600px){
+  .achievement{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    width: 80%;
+  }
+}

@@ -103,3 +103,16 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px){
+  .footer__main{
+display: flex;
+flex-direction: column;
+}
+
+  .footer__nav{
+
+    display: flex;
+    flex-direction: column;
+  }
+}

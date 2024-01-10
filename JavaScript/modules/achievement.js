@@ -8,7 +8,7 @@ export default function generateAchievementSection(data) {
   const sectionAfterWhyMeContent = `
   <article class="card rating">
   <header>
-    <h3 class="card__title"><img src="./images/ico-star.svg" alt="Outline star icon" /> ${
+    <h3 class="card__title"><img src="./public/images/ico-star.svg" alt="Outline star icon" /> ${
       data.ratingTitle
     }</h3>
     <p class="card__subtitle">
@@ -34,7 +34,7 @@ export default function generateAchievementSection(data) {
 </article>
 <article class="card awards">
   <header>
-    <h3 class="card__title"><img src="./images/ico-trophy.svg" alt="Outline star icon" /> ${
+    <h3 class="card__title"><img src="./public/images/ico-trophy.svg" alt="Outline star icon" /> ${
       data.learningTitle
     }</h3>
     <p class="card__subtitle">${data.learningSubtitle}</p>

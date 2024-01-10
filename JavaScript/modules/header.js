@@ -2,10 +2,8 @@ export default function generateHeaderSection() {
   const headerContent = `
     <header class="header">
       <div class="container header__container">
-        <img src="./images/logo.svg"
-          alt="Logo for the company Netbook and is a circle split diagonal with orange and yellow section and a line with a dot in the end"
-          width="145" height="35" />
-
+        <img src="./public/images/logo.svg" alt="Logo" width="145" height="35" />
+        <div class="menu-hamburguesa" onclick="toggleMenu()">☰</div>
         <nav aria-label="Primary" class="header__nav">
           <ul>
             <li><a href="#" class="active">Home</a></li>
@@ -19,5 +17,25 @@ export default function generateHeaderSection() {
   `;
 
   const primeContainer = document.querySelector(".prime");
-  primeContainer.innerHTML += headerContent;
+  primeContainer.innerHTML = headerContent;
+
+  function toggleMenu() {
+    const menu = document.querySelector(".header__nav ul");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+
+  function handleResize() {
+    const screenWidth = window.innerWidth;
+    const menu = document.querySelector(".header__nav ul");
+    if (screenWidth > 600) {
+      menu.style.display = "";
+    }
+  }
+
+  window.addEventListener("resize", handleResize);
+  window.toggleMenu = toggleMenu;
 }

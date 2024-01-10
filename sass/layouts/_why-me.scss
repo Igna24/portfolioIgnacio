@@ -52,3 +52,16 @@
 .whats-netbooks__video {
   grid-row: 1 / -1;
 }
+
+
+@media screen and (max-width: 600px){
+
+.whats-netbooks{
+  display: grid;
+  width: 80%;
+}
+
+.whats-netbooks__images{
+  margin-top: -152px;
+}
+}

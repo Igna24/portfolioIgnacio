@@ -1,11 +1,12 @@
 @import './abstracts/global';
-@import './components/header';
-@import './components/card';
-@import './components/button';
+@import './layouts/header';
+@import './layouts/hero';
+@import './components/buttons';
 @import './layouts/why-me';
 @import './layouts/achievement';
+@import './components/card';
 @import './layouts/skills';
 @import './layouts/interests';
-@import './layouts/reach-me';
+@import './layouts/contact';
 @import './layouts/works';
-@import './layouts/footer';
+@import './layouts/footer'

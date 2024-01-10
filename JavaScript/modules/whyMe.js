@@ -42,6 +42,6 @@ export default function generateWhyMeSection(data) {
   const primeContainer = document.querySelector(".prime");
   primeContainer.parentNode.insertBefore(
     mainElement,
-    primeContainer.nextSibling,
+    primeContainer.nextSibling
   );
 }

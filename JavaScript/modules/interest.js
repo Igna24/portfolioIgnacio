@@ -4,8 +4,8 @@ function generateInterestMembers(interests) {
       (interest) => `
         <div class="team__member-card">
           <div class="team__member-avatar">
-            <img src="./images/avatar-bluecheck.svg" alt="" class="team__member-bluecheck" />
-            <img src="./images/team-photo-frame.svg" class="team__member-frame" alt="" />
+            <img src="./public/images/avatar-bluecheck.svg" alt="" class="team__member-bluecheck" />
+            <img src="./public/images/team-photo-frame.svg" class="team__member-frame" alt="" />
             <img src="${interest.icon}" class="team__member-picture" alt="${interest.name}" />
           </div>
           <p class="team__member-name">${interest.name}</p>
