@@ -23,9 +23,9 @@ export default function getDataFromAPI() {
       "Continuous learning",
     ],
     images: [
-      "./public/images/whats-netbook-003.jpg",
-      "./public/images/whats-netbook-001.jpg",
-      "./public/images/whats-netbook-002.jpg",
+      "./images/whats-netbook-003.jpg",
+      "./images/whats-netbook-001.jpg",
+      "./images/whats-netbook-002.jpg",
     ],
   };
 
@@ -34,15 +34,15 @@ export default function getDataFromAPI() {
     ratingIcon: "./images/ico-star.svg",
     ratingSubtitle: "+250 Students",
     ratingAvatars: [
-      "./public/images/avatar-001.jpg",
-      "./public/images/avatar-002.jpg",
-      "./public/images/avatar-003.jpg",
+      "./images/avatar-001.jpg",
+      "./images/avatar-002.jpg",
+      "./images/avatar-003.jpg",
     ],
     ratingContent:
       "I always exceeded expectations, standing out among the best in completing my assignments.",
     ratingLink: "#",
     learningTitle: "Learning",
-    learningIcon: "./public/images/ico-trophy.svg",
+    learningIcon: "./images/ico-trophy.svg",
     learningSubtitle: "#MaratonLatam 2023 at Cisco",
     learningContent:
       "I have successfully completed the Cisco Academy program focused on learning the Python language.",
@@ -56,58 +56,58 @@ export default function getDataFromAPI() {
       "Languages and tools in which I have experience are those I have acquired through past and current work and projects I have carried out.",
     skills: [
       {
-        icon: "./public/images/react-original.svg",
+        icon: "./images/react-original.svg",
         name: "React",
         description: "JSX, Components, State, Props, Hooks",
       },
       {
-        icon: "./public/images/nextjs-original-wordmark.svg",
+        icon: "./images/nextjs-original-wordmark.svg",
         name: "NextJS",
         description:
           "Pages, Static Generation, Server-side Rendering, API Routes, Dynamic Routes",
       },
       {
-        icon: "./public/images/chakraUI.svg",
+        icon: "./images/chakraUI.svg",
         name: "ChakraUI",
         description:
           "Responsive Design, Accessibility, Customizable Visual Components",
       },
       {
-        icon: "./public/images/figma-original.svg",
+        icon: "./images/figma-original.svg",
         name: "Figma",
         description:
           "Interactive Prototyping, Plugins and Automation, Variants and Reusable Components",
       },
       {
-        icon: "./public/images/javascript-original.svg",
+        icon: "./images/javascript-original.svg",
         name: "JavaScript",
         description: "DOM, Design Patterns, OOP, API’s",
       },
       {
-        icon: "./public/images/sass-original.svg",
+        icon: "./images/sass-original.svg",
         name: "SASS",
         description: "Features like variables, nesting, mixins, and functions.",
       },
       {
-        icon: "./public/images/python-original.svg",
+        icon: "./images/python-original.svg",
         name: "PYTHON",
         description:
           "My experience includes a strong command of key concepts such as syntax, data structures, flow control, and file manipulation.",
       },
       {
-        icon: "./public/images/git-original.svg",
+        icon: "./images/git-original.svg",
         name: "GIT",
         description:
           "Version control system that allows for efficient and collaborative management of code repositories.",
       },
       {
-        icon: "./public/images/html5-original.svg",
+        icon: "./images/html5-original.svg",
         name: "HTML",
         description:
           "Standard markup language used to create and structure the content of web pages.",
       },
       {
-        icon: "./public/images/css3-original.svg",
+        icon: "./images/css3-original.svg",
         name: "CSS",
         description:
           "Strong understanding of applying styles, creating responsive designs, implementing positioning, and incorporating visual effects.",
@@ -123,66 +123,66 @@ export default function getDataFromAPI() {
     categories: {
       Hobbies: [
         {
-          icon: "./public/images/crossfit-icon.svg",
+          icon: "./images/crossfit-icon.svg",
           name: "CrossFit",
           username: "@crossfit",
         },
         {
-          icon: "./public/images/moto-icon.svg",
+          icon: "./images/moto-icon.svg",
           name: "Rider",
           username: "@motorider",
         },
         {
-          icon: "./public/images/golf-icon.svg",
+          icon: "./images/golf-icon.svg",
           name: "Golf",
           username: "@golf",
         },
         {
-          icon: "./public/images/hiking-icon.svg",
+          icon: "./images/hiking-icon.svg",
           name: "Hiking",
           username: "@trailwalker",
         },
       ],
       Knowledge: [
         {
-          icon: "./public/images/cooking-icon.svg",
+          icon: "./images/cooking-icon.svg",
           name: "Cooking",
           username: "@Cooking",
         },
         {
-          icon: "./public/images/AI-icon.svg",
+          icon: "./images/AI-icon.svg",
           name: "Artif. Inteligence",
           username: "@AI",
         },
         {
-          icon: "./public/images/tech-icon.svg",
+          icon: "./images/tech-icon.svg",
           name: "Technology",
           username: "@techenthusiast",
         },
         {
-          icon: "./public/images/mechanic-icon.svg",
+          icon: "./images/mechanic-icon.svg",
           name: "Mechanic",
           username: "@mechanic",
         },
       ],
       Books: [
         {
-          icon: "./public/images/finance.svg",
+          icon: "./images/finance.svg",
           name: "Finance",
           username: "@books",
         },
         {
-          icon: "./public/images/motivation.svg",
+          icon: "./images/motivation.svg",
           name: "Motivation",
           username: "@books",
         },
         {
-          icon: "./public/images/programming.svg",
+          icon: "./images/programming.svg",
           name: "Programming",
           username: "@books",
         },
         {
-          icon: "./public/images/adventure.svg",
+          icon: "./images/adventure.svg",
           name: "Adventures",
           username: "@books",
         },
@@ -197,8 +197,8 @@ export default function getDataFromAPI() {
       "I am always available and willing to connect with you. Here are some of the applications where you can find me without difficulty.",
     linkedinLink: "https://www.linkedin.com/in/ignacio-marin-garro-0b826916a/",
     githubLink: "https://github.com/Igna24",
-    screenshot: "./public/images/app-screenshot.svg",
-    shine: "./public/images/app-screenshot-shine.svg",
+    screenshot: "./images/app-screenshot.svg",
+    shine: "./images/app-screenshot-shine.svg",
   };
 
   const newsData = {
@@ -206,17 +206,17 @@ export default function getDataFromAPI() {
     subtitle: "Latest Works",
     articles: [
       {
-        image: "./public/images/CETAV-2023.svg",
+        image: "./images/CETAV-2023.svg",
         title: "CETAV's official website.",
         link: "https://lalibertad-cetav.vercel.app/",
       },
       {
-        image: "./public/images/EVENTS-2023.svg",
+        image: "./images/EVENTS-2023.svg",
         title: "Search and schedule events project",
         link: "https://events-side.vercel.app/",
       },
       {
-        image: "./public/images/WILD-2023.svg",
+        image: "./images/WILD-2023.svg",
         title: "A hotel management application",
         link: "https://hotel-appv-3.vercel.app",
       },
@@ -230,9 +230,9 @@ export default function getDataFromAPI() {
     githubUsername: "@igna24",
     githubLink: "https://github.com/Igna24",
     contactMessage: "Hope to hear from you soon!",
-    logo: "./public/images/logo-invert.svg",
-    linkedinIcon: "./public/images/linkedin-icon.svg",
-    githubIcon: "./public/images/github-icon.svg",
+    logo: "./images/logo-invert.svg",
+    linkedinIcon: "./images/linkedin-icon.svg",
+    githubIcon: "./images/github-icon.svg",
   };
 
   return {

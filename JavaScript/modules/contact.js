@@ -15,8 +15,8 @@ export default function generateContactSection(data) {
       <p class="section__subtitle">${data.subtitle}</p>
       <p>${data.description}</p>
       <p class="app__buttons">
-        <a href="${data.linkedinLink}"><img src="./public/images/linkedin-icon.svg" alt="LinkedIn" /></a>
-        <a href="${data.githubLink}"><img src="./public/images/github-icon.svg" alt="GitHub" /></a>
+        <a href="${data.linkedinLink}"><img src="./images/linkedin-icon.svg" alt="LinkedIn" /></a>
+        <a href="${data.githubLink}"><img src="./images/github-icon.svg" alt="GitHub" /></a>
       </p>
     </div>
 

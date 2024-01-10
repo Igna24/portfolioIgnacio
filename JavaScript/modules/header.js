@@ -2,7 +2,7 @@ export default function generateHeaderSection() {
   const headerContent = `
     <header class="header">
       <div class="container header__container">
-        <img src="./public/images/logo.svg" alt="Logo" width="145" height="35" />
+        <img src="./images/logo.svg" alt="Logo" width="145" height="35" />
         <div class="menu-hamburguesa" onclick="toggleMenu()">☰</div>
         <nav aria-label="Primary" class="header__nav">
           <ul>
