@@ -36,3 +36,9 @@
   aspect-ratio: 1/1;
   border-radius: 1.5rem;
 }
+
+@media screen and (max-width: 600px){
+  .community__card{
+    width: 80%;
+  }
+}

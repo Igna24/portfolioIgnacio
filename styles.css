@@ -496,6 +496,11 @@ a.link__arrowed:hover svg path {
   border-radius: 1.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .community__card {
+    width: 80%;
+  }
+}
 .team {
   margin-bottom: 5rem;
 }
