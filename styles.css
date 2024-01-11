@@ -135,6 +135,11 @@ p.section__subtitle {
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
 .header {
   border-bottom: solid 1px var(--color-primary-10);
   padding: 1.5rem 0;
@@ -406,9 +411,6 @@ p.section__subtitle {
   .achievement {
     display: flex;
     flex-direction: column;
-  }
-  .container {
-    width: 80%;
   }
 }
 .card.rating .card__title,

@@ -88,7 +88,7 @@ h6 {
 
 body {
   color: var(--color-text);
-  font-family: 'Inter', sans-serzif;
+  font-family: "Inter", sans-serzif;
 }
 
 h1,
@@ -133,4 +133,10 @@ p.section__subtitle {
 .prime {
   background: linear-gradient(311.76deg, #d4e7fe -15.24%, #ffffff 78.85%);
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
 }
