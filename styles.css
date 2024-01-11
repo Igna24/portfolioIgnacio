@@ -592,9 +592,16 @@ a.link__arrowed:hover svg path {
 }
 
 @media screen and (max-width: 600px) {
+  .team__content {
+    width: 100%;
+  }
   .team__members {
     display: flex;
     flex-direction: column;
+  }
+  .team__tabs {
+    flex-direction: column;
+    width: 100%;
   }
 }
 .app {
