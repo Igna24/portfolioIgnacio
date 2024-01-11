@@ -1,6 +1,11 @@
-
 .community {
-  background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #f1f6fd 20.5%, #f1f6fd 58.57%, #ffffff 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(241, 246, 253, 0) 1.63%,
+    #f1f6fd 20.5%,
+    #f1f6fd 58.57%,
+    #ffffff 100%
+  );
   padding: 5rem 0;
   margin-bottom: 7.5rem;
 }
@@ -37,9 +42,11 @@
   border-radius: 1.5rem;
 }
 
-@media screen and (max-width: 600px){
-  .community__content{
+@media screen and (max-width: 600px) {
+  .community__content {
     width: 100%;
   }
-  .community__card{width: 70%;}
+  .community__card {
+    width: 95%;
+  }
 }
